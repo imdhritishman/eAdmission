@@ -1,0 +1,18 @@
+/* Footer */
+.footer {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 1rem;
+    /* background-color: #efefef; */
+    background-color: white;
+    text-align: center;
+  }
+
+  /* Input type number disable scroll */
+  input[type="number"]::-webkit-outer-spin-button, 
+  input[type="number"]::-webkit-inner-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
